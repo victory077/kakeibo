@@ -1,0 +1,53 @@
+{
+  "name": "kakeibo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "eslint": "^10.0.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.0",
+    "globals": "^17.3.0",
+    "jsdom": "^28.0.0",
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.55.0",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@mantine/core": "^8.3.14",
+    "@mantine/dates": "^8.3.14",
+    "@mantine/dropzone": "^8.3.14",
+    "@mantine/form": "^8.3.14",
+    "@mantine/hooks": "^8.3.14",
+    "@mantine/notifications": "^8.3.14",
+    "@supabase/supabase-js": "^2.95.3",
+    "@tabler/icons-react": "^3.36.1",
+    "@tanstack/react-query": "^5.90.21",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "chart.js": "^4.5.1",
+    "dayjs": "^1.11.19",
+    "react": "^19.2.4",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0",
+    "zod": "^4.3.6"
+  }
+}

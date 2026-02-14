@@ -1,0 +1,25 @@
+﻿
+> kakeibo@0.0.0 lint
+> eslint .
+
+
+C:\Users\sho myz\web\kakeibo\src\hooks\useAuth.tsx
+  82:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\sho myz\web\kakeibo\src\lib\categorizer.test.ts
+  2:22  error  'learnCategoryRule' is defined but never used  @typescript-eslint/no-unused-vars
+  3:10  error  'supabase' is defined but never used           @typescript-eslint/no-unused-vars
+
+C:\Users\sho myz\web\kakeibo\src\pages\scan\ScanPage.tsx
+   4:50  error  'Button' is defined but never used      @typescript-eslint/no-unused-vars
+  14:28  error  'SourceType' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\sho myz\web\kakeibo\src\pages\scan\ScanReviewPage.tsx
+  4:52  error  'Stack' is defined but never used            @typescript-eslint/no-unused-vars
+  8:10  error  'DatePickerInput' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\sho myz\web\kakeibo\src\pages\trial-balance\TrialBalancePage.tsx
+  2:55  error  'Group' is defined but never used  @typescript-eslint/no-unused-vars
+
+笨・8 problems (7 errors, 1 warning)
+
